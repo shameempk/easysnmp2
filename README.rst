@@ -1,17 +1,14 @@
 Easy SNMP
 =========
 
-|Build Status| |Coverage Status| |Gitter| |License|
+|Build Status| |Coverage Status| |License|
 
-.. |Build Status| image:: https://travis-ci.org/kamakazikamikaze/easysnmp.svg?branch=master
-   :target: https://travis-ci.org/kamakazikamikaze/easysnmp
-.. |Coverage Status| image:: https://coveralls.io/repos/kamakazikamikaze/easysnmp/badge.svg
-   :target: https://coveralls.io/r/kamakazikamikaze/easysnmp
+.. |Build Status| image:: https://travis-ci.org/michalmazurek/easysnmp2.svg?branch=master
+   :target: https://travis-ci.org/michalmazurek/easysnmp2
+.. |Coverage Status| image:: https://coveralls.io/repos/michalmazurek/easysnmp2/badge.svg
+   :target: https://coveralls.io/r/michalmazurek/easysnmp2
 .. |License| image:: https://img.shields.io/badge/license-BSD-blue.svg
-   :target: https://github.com/kamakazikamikaze/easysnmp/blob/master/LICENSE
-.. |Gitter| image:: https://badges.gitter.im/easysnmp/Lobby.svg
-   :alt: Join the chat at https://gitter.im/easysnmp/Lobby
-   :target: https://gitter.im/easysnmp/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge
+   :target: https://github.com/michalmazurek/easysnmp/blob/master/LICENSE
 
 .. image:: https://raw.githubusercontent.com/fgimian/easysnmp/master/images/easysnmp-logo.png
     :alt: Easy SNMP Logo
@@ -31,6 +28,8 @@ information about SNMP.
 
 This module provides a full-featured SNMP client API and supports all
 dialects of the SNMP protocol.
+
+This is a fork to original easysnmp module which is sadly not maintained anymore.
 
 Why Another Library?
 --------------------
@@ -134,6 +133,7 @@ Acknowledgments
 I'd like to say thanks to the following folks who have made this project
 possible:
 
+-  **Kent Koble**: maintainer of `easysnmp`
 -  **Giovanni Marzot**: the original author
 -  **ScienceLogic, LLC**: sponsored the initial development of this
    module

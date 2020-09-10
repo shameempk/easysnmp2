@@ -170,8 +170,8 @@ class Session(object):
         security_engine_id='', context='', engine_boots=0, engine_time=0,
         our_identity='', their_identity='', their_hostname='',
         trust_cert='', use_long_names=False, use_numeric=False,
-        use_sprint_value=False, use_enums=False, best_guess=0,
-        retry_no_such=False, abort_on_nonexistent=False
+        use_sprint_value=False, use_enums=False, use_modules=False,
+        best_guess=0, retry_no_such=False, abort_on_nonexistent=False
     ):
         # Validate and extract the remote port
         if ':' in hostname:
@@ -208,6 +208,7 @@ class Session(object):
         self.trust_cert = trust_cert
         self.use_long_names = use_long_names
         self.use_numeric = use_numeric
+        self.use_modules = use_modules
         self.use_sprint_value = use_sprint_value
         self.use_enums = use_enums
         self.best_guess = best_guess

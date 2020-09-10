@@ -25,3 +25,10 @@ docs/_build/
 
 # vim stuff
 .ropeproject
+
+# virtuanenvs
+.venv
+venv
+
+#vscode stuff
+.vscode
