@@ -1,6 +1,11 @@
 Changelog
 ---------
 
+`0.3.0 <https://github.com/michalmazurek/easysnmp2/releases/tag/0.3.0>`_ (2020-09-14)
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+- Added `use_modules` to Sesssion, so now in oid names you get also MIB names.
+
 `0.2.5 <https://github.com/kamakazikamikaze/easysnmp/releases/tag/0.2.5>`_ (2017-06-14)
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
