@@ -83,7 +83,7 @@ setup(
     name='easysnmp2',
     version='0.2.5',
     description='A blazingly fast and Pythonic SNMP library based on the '
-                'official Net-SNMP bindings - Fork of unmaintained ',
+                'official Net-SNMP bindings - Fork of unmaintained easysnmp',
     long_description=long_description,
     author='Michal Mazurek',
     author_email='mazurek.michal@gmail.com',
