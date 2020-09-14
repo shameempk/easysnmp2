@@ -4,6 +4,10 @@ import os
 import subprocess
 
 
+SNMP_HOST = os.getenv("SNMP_HOST", "localhost")
+SNMP_REMOTE_PORT = int(os.getenv("SNMP_REMOTE_PORT", 11161))
+
+
 class SNMPSetCLIError(Exception):
     """An exception raised when an SNMP SET fails via the CLI."""
 
@@ -22,7 +26,7 @@ def snmp_set_via_cli(oid, value, type):
     """
     dev_null = open(os.devnull)
     process = subprocess.Popen([
-        'snmpset', '-v2c', '-c', 'public', 'localhost:11161', oid, type, value
+        'snmpset', '-v2c', '-c', 'public', f'{SNMP_HOST}:{SNMP_REMOTE_PORT}', oid, type, value
     ], stdout=dev_null, stderr=dev_null)
     process.communicate()
     if process.returncode != 0:

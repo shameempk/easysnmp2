@@ -1,6 +1,6 @@
 from __future__ import unicode_literals
 
-from .session import Session
+from easysnmp.session import Session
 
 
 def snmp_get(oids, **session_kargs):

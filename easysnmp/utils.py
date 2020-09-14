@@ -2,7 +2,7 @@ from __future__ import unicode_literals
 
 import string
 
-from .compat import ub, text_type
+from easysnmp.compat import ub, text_type
 
 
 def strip_non_printable(value):

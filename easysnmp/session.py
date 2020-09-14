@@ -5,12 +5,12 @@ import re
 
 # Don't attempt to import the C interface if building docs on RTD
 if not os.environ.get('READTHEDOCS', False):  # noqa
-    from . import interface
+    from easysnmp import interface
 
-from .exceptions import (
+from easysnmp.exceptions import (
     EasySNMPError, EasySNMPNoSuchObjectError, EasySNMPNoSuchInstanceError
 )
-from .variables import SNMPVariable, SNMPVariableList
+from easysnmp.variables import SNMPVariable, SNMPVariableList
 
 # Mapping between security level strings and their associated integer values.
 # Here we provide camelCase naming as per the original spec but also more

@@ -1,0 +1,10 @@
+version: '3'
+services:
+  snmpd:
+    image: polinux/snmpd
+    ports:
+      - 1161:161/udp
+    volumes:
+      - .:/easysnmp
+    command:
+      - -c /easysnmp/snmpd.conf
