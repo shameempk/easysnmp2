@@ -29,6 +29,7 @@ docs/_build/
 # virtuanenvs
 .venv
 venv
+venv3.7
 
 #vscode stuff
 .vscode
