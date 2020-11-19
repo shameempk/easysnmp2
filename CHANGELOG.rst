@@ -1,6 +1,11 @@
 Changelog
 ---------
 
+`0.3.1 <https://github.com/michalmazurek/easysnmp2/releases/tag/0.3.1>`_ (2020-11-19)
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+- Fix SystemError: PyEval_EvalFrameEx returned a result with an error set thanks to @lerela (https://github.com/lerela)
+
 `0.3.0 <https://github.com/michalmazurek/easysnmp2/releases/tag/0.3.0>`_ (2020-09-14)
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
