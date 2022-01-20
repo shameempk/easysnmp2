@@ -147,8 +147,8 @@ You may run the unit tests as follows:
 
 .. code:: bash
 
-    git clone https://github.com/fgimian/painter.git
-    cd painter
+    git clone https://github.com/MichalMazurek/easysnmp2.git
+    cd easysnmp2
     python setup.py test
 
 License
